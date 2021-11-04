@@ -1,0 +1,9 @@
+<div>
+  <app-bar-chart *ngIf="isChartVisible" [data]="chartData"></app-bar-chart>
+  <br />
+  <button (click)="mountUnmountChart()">
+    Mount/Unmount BarChart component
+  </button>
+  <button (click)="addBar()">Add bar</button>
+  <button (click)="removeBar()">Remove bar</button>
+</div>
